@@ -31,7 +31,8 @@
                     <h2>a better way camp</h2>
                 </div>
                 <div class="col-md-4 col-xl-2 order-md-last">
-                    <a role="button" href="#betterButton" class="btn btn-info btn-lg mt-4 ">Reserve Campsite</a>
+                    <a role="button" data-scroll href="#reserveForm" class="btn btn-info btn-lg mt-4 ">Reserve
+                        Campsite</a>
                 </div>
             </div>
         </div>
@@ -109,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <span class="anchor" id="betterButton"></span>
+            
             <div class="row row-content align-items-center pb-5">
                 <div class="col-md-8 col-lg-6 mx-auto">
                     <div class="card">
@@ -133,7 +134,8 @@
                                 <div class="form-group row">
                                     <label for="date" class="col-sm-6 col-form-label">Date</label>
                                     <div class="col-sm-6">
-                                        <input type="date" id="date" name="date" placeholder="1/1/2020" class="form-control" />
+                                        <input type="date" id="date" name="date" placeholder="1/1/2020"
+                                            class="form-control" />
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -180,6 +182,12 @@
                 </div>
             </div>
         </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
 
 </body>
 
