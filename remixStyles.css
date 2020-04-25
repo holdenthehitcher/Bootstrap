@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+
+
+h1, h2, h3 {
+    font-family: "Dancing Script", cursive;
+    font-size: 41px;
+}
+
+h1 {
+    font-size:100px
+}
+
+h2 {
+    color:#405d27;
+}
+
+header h2 {
+    color: #cec8ff;
+}
+
+footer {
+    background-image: linear-gradient(#d1d3cf, #c4bdbd);
+    padding: 20px 0;
+}
+
+.site-footer{
+    background-image: linear-gradient(#82b74b, white);
+    padding: 20px 0px;
+}
+
+.jumbotron {
+    padding: 30px;
+    margin:0;
+    background-image: linear-gradient(to bottom,#86af49, #405d27, #674d3c );
+    color: white;
+}
+
+.row-content{
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #674d3c;
+}
+
+.tab-content{
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+.carousel{
+    border:solid #674d3c;
+    border-width: 3px;
+}
+
+
+
+.img-thumbnail{
+    max-width: 300px;
+    max-height: 300px;
+}
